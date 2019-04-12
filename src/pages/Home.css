@@ -1,0 +1,7 @@
+.main1 {
+    border: 1px solid black;
+    padding: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    box-direction: column;
+}

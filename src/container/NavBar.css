@@ -1,0 +1,43 @@
+.NavBar{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    
+}
+.Link{
+    border-left: 1px solid black;
+    color: green;
+    padding-right: 3em;
+    padding-left: 2em;
+    font-size: 1rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.Link1{
+    border-right: 1px solid black;
+    padding-right: 1.5em;
+    padding-left: 2em;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+.Link:hover{
+    color: black;
+}
+.Link1:hover{
+   color: green;
+}
+.Link:active{
+    background: tomato;
+    opacity: 0.5;
+}
+.Link1:active{
+    background: tomato;
+    opacity: 0.5;
+}

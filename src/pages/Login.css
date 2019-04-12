@@ -1,0 +1,52 @@
+.loginWrap{
+    border: 1px solid black;
+    border-radius: 0.3em;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    margin: 4em auto;
+    background-image: linear-gradient(rgb(230, 230, 230,0.2),rgb(163, 163, 163,0.5)), url('../img/paper2.jpg');
+}
+.loginLeft{
+    font-size: 2rem;
+    margin-right: 0.5em;
+}
+
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 2em;
+}
+
+.loginIn {
+    border: 1px solid rgb(70, 70, 70); 
+    color: grey;
+    padding: 1em;
+    margin: 0.1em;
+    border-radius: 0.3em;
+    outline: none;
+}
+.loginIn:focus {
+    border: 1px solid rgb(180, 180, 180);
+}
+
+.loginButton{
+    width: 10rem;
+    height: 3rem;
+    margin: 0.1em;
+    border: none;
+    border-radius: 0.3em;
+    font-size: 0.8rem;
+    color: white;
+    background-color: teal;
+    transition: 0.6s;
+}
+.loginButton:hover{
+    background-color: aqua;
+}

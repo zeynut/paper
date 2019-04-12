@@ -1,0 +1,8 @@
+.headerText{
+    font-family: 'Dokdo', cursive;
+    font-size: 3rem;
+    padding: 0.5em;
+}
+.headerText:hover{
+    color: green;
+}

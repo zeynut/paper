@@ -1,0 +1,10 @@
+.FooterWrap {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+    font-family: 맑은고딕, "Malgun Gothic";
+    font-size: 0.8rem;
+    color: rgb(231, 231, 231);
+    background-image: linear-gradient(rgba(11, 75, 43, 0.7), rgba(94, 94, 6, 0.5)), url('../img/foot1.gif');
+}   
