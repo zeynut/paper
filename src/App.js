@@ -5,6 +5,7 @@ import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Shop from './pages/Shop';
 import Login from './pages/Login';
+import NoMatch from './pages/NoMatch.js';
 
 import './App.css';
 import Banner from './container/Banner';
@@ -32,11 +33,12 @@ class App extends Component {
            <HeaderMain/>
            <NavBar/>
            <Switch> 
-           <Route exact path='/' component={Home} />
-           <Route path='/about' component={About} />
-           <Route path='/contact' component={Contact} />
-           <Route path='/shop' component={Shop} />
-           <Route path='/login' component={Login} />     
+            <Route exact path='/' component={Home} />
+            <Route path='/about' component={About} />
+            <Route path='/contact' component={Contact} />
+            <Route path='/shop' component={Shop} />
+            <Route path='/login' component={Login} /> 
+            <Route component={NoMatch} />    
            </Switch>
         </header>
         <section>

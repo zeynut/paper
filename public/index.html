@@ -16,11 +16,15 @@
     <link href="https://fonts.googleapis.com/css?family=Dokdo|Nanum+Gothic|Poppins|Roboto:400,700" rel="stylesheet">
  
     <title>Good2Box</title>
+    <!-- 구글로그인 불러오기-->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
   </head>
   <body>
     <div id="root"></div>
-    
+  <!-- 화이어베이스 부분    -->
 <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase.js"></script>
+<!--######## id 부분에 우리 아이디 넣기 ####### -->
+<meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
 <script>
   // Initialize Firebase
   var config = {

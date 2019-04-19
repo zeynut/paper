@@ -1,5 +1,6 @@
-import React , {Component} from 'react';
+import React , {Component, Fragment} from 'react';
 import './Login.css';
+
 
 class Login extends Component {
 
@@ -32,14 +33,17 @@ class Login extends Component {
     render(){
      
     return (
+        <Fragment>
         <div className='loginWrap'>
             <div className='loginLeft'>Login</div>
             <div className='login'>
                 <div ><input className='loginIn' name='emailField' type='email'placeholder=' email' value={this.state.emailField} onChange={this.onChange1}></input></div>
                 <div ><input className='loginIn' name='passwordField' type='password'placeholder=' password' value={this.state.passwordField} onChange={this.onChange1} onKeyPress={this.handleKeyPress}></input></div>
+                <div><div class="g-signin2" data-onsuccess="onSignIn"></div></div>
                 <div><button className='loginButton'onClick={this.loginClicked}>Login</button></div>
             </div>
         </div>
+        </Fragment>
     );
     }
 };
